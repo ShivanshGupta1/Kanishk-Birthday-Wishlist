@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Import Google Icon Font-->
+
+  <link rel="stylesheet" href="materialize.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <nav style="height: 100px;">
+    <div class="nav-wrapper">
+      <a href="http://localhost:3000/" class="animate__animated animate__swing brand-logo" style="width: 200px; height: 100px;"><img style="width: 200px; height: 100px;"
+          
+        src="https://1.bp.blogspot.com/-UmcDgoxrm6g/YDc_lKlJZhI/AAAAAAAAJOg/as0gVrXSxKEUJtAzdiBgRIlKBDJ3EK_qACLcBGAsYHQ/s2048/PNGKH_0000267.png" alt=""></a>
+      <ul class="right hide-on-med-and-down">
+  <li><a href="http://localhost:3000/">Let's Wish Kanishk Happy Birthday</a></li>
+        <li><a href="http://localhost:3000/wishes"><i class="material-icons">card_giftcard</i></a></li>
+        <li><a href="http://localhost:3000/"><i class="material-icons">refresh</i></a></li>
+
+        <li>
+
+
+          <!-- Element Showed -->
+
+          <a id="menu" onmouseover="$('.tap-target').tapTarget('open')" onclick="$('.tap-target').tapTarget('open')"
+            class="btn btn-floating btn-large waves-orange"><i class="material-icons">menu</i></a>
+
+
+
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Start Tap Target Structure -->
+  <div style="background-color: #00ff87;" class="tap-target " data-activates="menu">
+    <div class="tap-target-content white-text">
+      <h5 style="text-align: center; margin-left: 100px;">Birthday Time</h5>
+      <p style="text-align: center; margin-left: 100px;">Happy Birthday Kanishk! Hope you have a great day and ejoy it to the fullest! <a
+          href="https://www.youtube.com/watch?v=O2aQhWwxuyY"> <strong> <code>Birthday Song</code> </strong></a> that
+        you will enjoy! </p>
+    </div>
+  </div>
+  <!-- End Tap Target Structure -->
+  </div>
+
+
+  <div class="chips chips-initial"></div>
+
+
+  <div class="row" style="margin-top:10px;">
+    <form class="col s12" method="POST" action="/wishes">
+      <div class="row">
+        <div class="input-field col s4">
+          <i class="material-icons prefix">account_circle</i>
+          <input name="First_Name" id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">First Name</label>
+        </div>
+        <div class="input-field col s4">
+          <i class="material-icons prefix">message</i>
+          <input name="Message" id="icon_message" type="tel" class="validate">
+          <label for="icon_message">Message</label>
+        </div>
+             <div class="input-field col s4">
+          <i class="material-icons prefix">message</i>
+          <input name="Section" id="icon_message" type="tel" class="validate">
+          <label for="icon_message">Section</label>
+        </div>
+      </div>
+      <button class="btn btn-primary" style="text-align: center; margin-left: 600px;" type="submit">Submit</button>
+    </form>
+  </div>
+  <style>
+  
+   .brand-logo :hover {
+
+
+  animation: swing; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+  </style>
+  <footer class="footer" style="text-align: center;">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Website</strong> by <a href="https://jgthms.com">Shivansh Gupta</a>. The source code is licensed
+      ISC.  </p>
+  </div>
+</footer>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="materialize.js"></script>
+  <script src="init.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="materialize.js"></script>
+  <script src="init.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!--Import materialize.js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+</body>
+
+</html>

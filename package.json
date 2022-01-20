@@ -1,0 +1,19 @@
+{
+  "name": "kanishkapp",
+  "version": "1.0.0",
+  "description": "This is an app for my friend's birthday",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Shivansh Gupta",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "nodemon": "^2.0.6"
+  },
+  "license": "ISC"
+}
